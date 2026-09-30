@@ -13,6 +13,9 @@ jobs:
           distribution: temurin
           java-version: '17'
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
       - run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
       - uses: gradle/actions/setup-gradle@v4
         with:
@@ -22,3 +25,4 @@ jobs:
         with:
           name: AdNir-Mobile-debug-APK
           path: app/build/outputs/apk/debug/app-debug.apk
+
