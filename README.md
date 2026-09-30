@@ -1,5 +1,5 @@
 # AdNir Data Scalper
 
-Standalone Android browser scanner. No ChatGPT, API key, or application server required. Internet is needed to load source webpages.
+Android 7+ browser scanner with local records and CSV export. No ChatGPT or API key required.
 
-Android sources and APK build workflow are being added.
+See README_HINDI.md for usage. Download the APK from the latest successful Actions run.
